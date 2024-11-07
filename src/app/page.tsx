@@ -5,7 +5,12 @@ import { CalendarIcon, MapPinnedIcon } from "lucide-react";
 
 export default function Home() {
     return (
-        <div className="relative flex h-[100dvh] max-h-[1000px] items-center justify-center overflow-hidden bg-red-400 text-neutral-100">
+        <div
+            className={cn(
+                "relative flex h-[100dvh] max-h-[1000px] items-center justify-center overflow-hidden text-neutral-100",
+                "bg-gradient-to-b from-[#F65537] to-[#EB2D51]"
+            )}
+        >
             <div className="grid h-[100dvh] grid-cols-11 grid-rows-11">
                 <div
                     className={cn(
