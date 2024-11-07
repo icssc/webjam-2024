@@ -1,0 +1,12 @@
+name = "webjam-2024"
+
+main = ".worker-next/index.mjs"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+
+routes = [
+  { pattern = "webjam.icssc.club", custom_domain = true },
+  { pattern = "webjam-2024.icssc.club", custom_domain = true },
+]
