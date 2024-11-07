@@ -34,7 +34,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="flex flex-col items-center justify-center space-x-8 space-y-2 md:flex-row">
+                    <div className="flex flex-col items-center justify-center gap-x-8 gap-y-2 md:flex-row">
                         <div
                             className={cn(
                                 "flex min-w-fit items-center space-x-2 font-semibold",
