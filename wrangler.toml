@@ -6,6 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 
 assets = { directory = ".worker-next/assets", binding = "ASSETS" }
 
+workers_dev = false
 routes = [
   { pattern = "webjam.icssc.club", custom_domain = true },
   { pattern = "webjam-2024.icssc.club", custom_domain = true },
