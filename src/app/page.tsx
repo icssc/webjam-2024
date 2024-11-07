@@ -60,7 +60,7 @@ export default function Home() {
                             <MapPinnedIcon />
 
                             <p className="whitespace-nowrap">
-                                Donald Bren Hall
+                                Donald Bren Hall + Student Center
                             </p>
                         </div>
                     </div>
