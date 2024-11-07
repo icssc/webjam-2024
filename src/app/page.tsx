@@ -103,7 +103,11 @@ export default function Home() {
                     alt={"buff anteater"}
                     width={400}
                     height={100}
-                    className="absolute bottom-[36%] right-[12%] w-[12.5%]"
+                    className={cn(
+                        "absolute w-[200px]",
+                        "bottom-[12%] md:bottom-[20%] xl:bottom-64 2xl:bottom-80",
+                        "-right-8 md:right-8 lg:right-16"
+                    )}
                 />
             </div>
         </div>
