@@ -48,8 +48,20 @@ export default function Home() {
 
             <div className="absolute top-0 h-[100dvh] max-h-[1000px] w-full">
                 <Image
+                    src={"/layer-one/L1_Sun.svg"}
+                    alt={"sun"}
+                    width={400}
+                    height={100}
+                    className={cn(
+                        "absolute",
+                        "right-[4%] top-[4%] md:right-[8%] md:top-[8%]",
+                        "w-[25%] md:w-[12.5%]"
+                    )}
+                />
+
+                <Image
                     src={"/layer-one/L1_MountainBackground.svg"}
-                    alt={""}
+                    alt={"mountain background"}
                     width={2000}
                     height={100}
                     className="absolute bottom-0 right-0 w-[1000px] min-w-[700px] md:right-auto"
@@ -65,43 +77,33 @@ export default function Home() {
 
                 <Image
                     src={"/layer-one/L1_SweatyAnteater.svg"}
-                    alt={""}
+                    alt={"sweaty anteater"}
                     width={400}
                     height={100}
                     className={cn(
-                        "absolute bottom-[10%] left-[16%] w-[15%]",
+                        "absolute bottom-16 w-[20%] xl:w-[15%]",
+                        "left-6 lg:left-14",
                         "hidden md:flex"
                     )}
                 />
                 <Image
                     src={"/layer-one/L1_HelpfulAnteater.svg"}
-                    alt={""}
+                    alt={"helpful anteater"}
                     width={400}
                     height={100}
                     className={cn(
-                        "absolute bottom-[18%] left-[32%] w-[12.5%]",
+                        "absolute bottom-20 w-[20%] xl:w-[15%]",
+                        "left-52 lg:left-80",
                         "hidden md:flex"
                     )}
                 />
 
                 <Image
                     src={"/layer-one/L1_BuffAnteater.svg"}
-                    alt={""}
+                    alt={"buff anteater"}
                     width={400}
                     height={100}
                     className="absolute bottom-[36%] right-[12%] w-[12.5%]"
-                />
-
-                <Image
-                    src={"/layer-one/L1_Sun.svg"}
-                    alt={""}
-                    width={400}
-                    height={100}
-                    className={cn(
-                        "absolute",
-                        "right-[4%] top-[4%] md:right-[8%] md:top-[8%]",
-                        "w-[25%] md:w-[12.5%]"
-                    )}
                 />
             </div>
         </div>
