@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { CalendarIcon, MapPinnedIcon } from "lucide-react";
@@ -66,18 +67,28 @@ export default function Home() {
                     </div>
 
                     <div className="flex items-center space-x-2 text-2xl font-semibold">
-                        <Button className="border-2 bg-red-400 bg-opacity-60 px-3 py-4 text-2xl font-semibold text-white backdrop-blur-lg hover:bg-red-300 hover:bg-opacity-70">
-                            Apply
-                        </Button>
+                        <Link
+                            href="https://icssc.link/webjam-app"
+                            target="_blank"
+                        >
+                            <Button className="border-2 bg-red-400 bg-opacity-60 px-3 py-4 text-2xl font-semibold text-white backdrop-blur-lg hover:bg-red-300 hover:bg-opacity-70">
+                                Apply
+                            </Button>
+                        </Link>
 
                         <div className="flex items-center">
                             <p className="whitespace-nowrap">or be a &nbsp;</p>
-                            <Button
-                                className="p-0 text-2xl font-semibold text-white underline hover:decoration-red-300"
-                                variant={"link"}
+                            <Link
+                                href="https://icssc.link/webjam-mentorship-app"
+                                target="_blank"
                             >
-                                Mentor!
-                            </Button>
+                                <Button
+                                    className="p-0 text-2xl font-semibold text-white underline hover:decoration-red-300"
+                                    variant={"link"}
+                                >
+                                    Mentor!
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
