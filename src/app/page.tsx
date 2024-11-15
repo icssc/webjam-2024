@@ -25,7 +25,9 @@ export default function Home() {
                     alt={"stars"}
                     width={400}
                     height={100}
-                    className={cn("absolute top-[300px] w-full")}
+                    className={cn(
+                        "absolute w-[200%] min-w-[200%] object-cover"
+                    )}
                 />
 
                 <About />
@@ -33,7 +35,17 @@ export default function Home() {
                 <Prizes />
                 <Faq />
 
-                <div className="h-[300px] w-full md:h-[600px]">
+                <div className="h-[200px] w-full sm:h-[300px] md:h-[500px] lg:h-[600px]">
+                    <Image
+                        src={"/layer-two/Stars.svg"}
+                        alt={"stars"}
+                        width={400}
+                        height={100}
+                        className={cn(
+                            "absolute bottom-0 w-[2000px] min-w-[500px] -scale-x-100 object-cover"
+                        )}
+                    />
+
                     <Image
                         src={"/layer-two/BackmostTreesBackground.svg"}
                         alt={"backmost trees background"}
