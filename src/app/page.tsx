@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import { About } from "@/components/about";
 import { Faq } from "@/components/faq";
 import { Hero } from "@/components/hero";
 import { Prizes } from "@/components/prizes";
+import { Rules } from "@/components/rules";
 import { Schedule } from "@/components/schedule";
 import { cn } from "@/lib/utils";
 
@@ -33,6 +35,7 @@ export default function Home() {
                 <About />
                 <Schedule />
                 <Prizes />
+                <Rules />
                 <Faq />
 
                 <div className="h-[200px] w-full sm:h-[300px] md:h-[500px] lg:h-[600px]">
