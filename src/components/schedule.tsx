@@ -3,7 +3,7 @@ import { SCHEDULE, type Schedule } from "@/data/schedule";
 import { cn } from "@/lib/utils";
 
 function getFormattedDate(date: string) {
-    const dateObject = new Date(date + "T00:00:00").toLocaleDateString(
+    const dateObject = new Date(date + "T07:00:00").toLocaleDateString(
         "en-US",
         {
             timeZone: "America/Los_Angeles",
