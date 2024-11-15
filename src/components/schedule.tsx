@@ -66,7 +66,7 @@ export function Schedule() {
                             >
                                 <div className="flex max-w-[600px] grow gap-8 md:min-w-[500px] xl:min-w-[600px]">
                                     <Image
-                                        src={"/favicon.ico"}
+                                        src={event.logo}
                                         alt="club Logo"
                                         width={400}
                                         height={400}
