@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { About } from "@/components/about";
+import { Faq } from "@/components/faq";
 import { Hero } from "@/components/hero";
 import { Prizes } from "@/components/prizes";
 import { Schedule } from "@/components/schedule";
@@ -30,6 +31,7 @@ export default function Home() {
                 <About />
                 <Schedule />
                 <Prizes />
+                <Faq />
 
                 <div>foo</div>
                 <div>foo</div>
