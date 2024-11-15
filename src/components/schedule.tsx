@@ -46,7 +46,7 @@ export function Schedule() {
     const events = sortSchedule(SCHEDULE);
 
     return (
-        <div className="relative mx-auto flex w-[80%] flex-col space-y-8 pt-32 md:pt-48">
+        <div className="relative mx-auto flex w-[80%] flex-col space-y-8">
             <div className="flex text-7xl font-semibold">Schedule</div>
 
             {events.map((day) => (
@@ -64,7 +64,7 @@ export function Schedule() {
                                 className="flex flex-col items-start gap-4 lg:flex-row lg:justify-between"
                                 key={event.title + event.time}
                             >
-                                <div className="flex w-[600px] min-w-[500px] grow gap-8 xl:min-w-[600px]">
+                                <div className="flex max-w-[600px] grow gap-8 md:min-w-[500px] xl:min-w-[600px]">
                                     <Image
                                         src={"/favicon.ico"}
                                         alt="club Logo"
@@ -77,7 +77,7 @@ export function Schedule() {
                                     />
 
                                     <div className="flex flex-col space-y-1">
-                                        <div className="flex flex-wrap text-3xl md:text-4xl">
+                                        <div className="white flex flex-wrap text-3xl md:text-4xl">
                                             {event.title}
                                         </div>
 
