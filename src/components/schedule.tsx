@@ -46,7 +46,7 @@ export function Schedule() {
     const events = sortSchedule(SCHEDULE);
 
     return (
-        <div className="relative mx-auto flex w-[80%] flex-col space-y-8 pt-48">
+        <div className="relative mx-auto flex w-[80%] flex-col space-y-8 pt-32 md:pt-48">
             <div className="flex text-7xl font-semibold">Schedule</div>
 
             {events.map((day) => (
