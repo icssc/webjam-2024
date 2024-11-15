@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Hero } from "@/components/ui/hero/hero";
+import { Hero } from "@/components/hero";
+import { Schedule } from "@/components/schedule";
 import { cn } from "@/lib/utils";
 
 export default function Home() {
@@ -29,6 +30,8 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
+
+                <Schedule />
 
                 <Image
                     src={"/layer-two/Stars.svg"}
