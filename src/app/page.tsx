@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div
             className={cn(
-                "relative flex h-[100dvh] max-h-[1000px] items-center justify-center overflow-hidden text-neutral-100",
+                "relative flex h-[100dvh] items-center justify-center overflow-hidden text-neutral-100",
                 "bg-gradient-to-b from-[#F65537] to-[#EB2D51]"
             )}
         >
