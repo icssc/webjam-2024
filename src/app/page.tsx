@@ -33,8 +33,41 @@ export default function Home() {
                 <Prizes />
                 <Faq />
 
-                <div>foo</div>
-                <div>foo</div>
+                <div className="h-[300px] w-full md:h-[600px]">
+                    <Image
+                        src={"/layer-two/BackmostTreesBackground.svg"}
+                        alt={"backmost trees background"}
+                        width={1000}
+                        height={4000}
+                        className={cn("absolute bottom-0 w-full")}
+                    />
+
+                    <Image
+                        src={"/layer-two/GroundBackground.svg"}
+                        alt={"ground background"}
+                        width={400}
+                        height={100}
+                        className={cn("absolute bottom-0 w-full")}
+                    />
+
+                    <Image
+                        src={"/layer-two/TentsAndGroundDetails.svg"}
+                        alt={"tents and ground details"}
+                        width={400}
+                        height={100}
+                        className={cn("absolute bottom-0 w-full")}
+                    />
+
+                    <Image
+                        src={"/layer-two/StargazingAnteaters.svg"}
+                        alt={"stargazing anteaters"}
+                        width={800}
+                        height={400}
+                        className={cn(
+                            "absolute bottom-0 left-1/2 w-[50%] -translate-x-1/2"
+                        )}
+                    />
+                </div>
             </div>
         </>
     );

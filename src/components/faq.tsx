@@ -20,7 +20,7 @@ export function Faq() {
                         value={item.question}
                         key={item.question}
                     >
-                        <AccordionTrigger className="text-2xl">
+                        <AccordionTrigger className="text-left text-2xl">
                             {item.question}
                         </AccordionTrigger>
                         <AccordionContent className="text-xl">
