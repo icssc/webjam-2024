@@ -66,7 +66,7 @@ export function Hero() {
                         </div>
                     </div>
 
-                    <div className="flex items-center space-x-2 text-2xl font-semibold">
+                    {/* <div className="flex items-center space-x-2 text-2xl font-semibold">
                         <Link
                             href="https://icssc.link/webjam-app"
                             target="_blank"
@@ -90,7 +90,7 @@ export function Hero() {
                                 </Button>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
